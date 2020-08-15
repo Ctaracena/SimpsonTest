@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Los Simpson - Quiz</title>
+</head>
+<body>
+    <div class="header"></div>
+
+
+    <div class="title">
+        <h1>Te consideras un verdadero fan de Los Simpson?</h1>
+        <h3>Contesta este Quiz y sabrás que tanto conoces de la familia favorita de América <br> El Quiz consiste en 20 preguntas basadas, más que nada, en las primeras temporadas de la serie (porque son las mejores!) </h3>
+        <button onclick="start()" class="start btn">¡Empezar!</button>
+    </div>
+
+    <div class="quiz">
+
+        <div class="question">
+            <h2>¿En qué show aparecían los Simpson originalmente?</h2>
+            <img src="https://arc-anglerfish-arc2-prod-infobae.s3.amazonaws.com/public/QTXNDGEFQBGN3IA67YUULAUMS4.jpg" alt="">
+            <div class="answers">
+                <button onclick="ok('.ok1', '.one1', '.two1', '.three1')" class="btn ok1">The Tracey Ullman Show</button>
+                <button onclick="wrongOne('.ok1', '.one1', '.two1', '.three1')" class="btn one1">Saturday Night Live</button>
+                <button onclick="wrongTwo('.ok1', '.one1', '.two1', '.three1')" class="btn two1">Late Show with David Letterman</button>
+                <button onclick="wrongThree('.ok1', '.one1', '.two1', '.three1')" class="btn three1">The Tonight Show</button>
+            </div>
+        </div>   
+
+        <div class="question">
+            <h2>¿Quién le disparó al Sr. Burns?</h2>
+            <img src="https://pyxis.nymag.com/v1/imgs/051/3e1/a1f641d865436949c26138353fb77fe1c4-18-simpsons-mystery-week-lede-1.rhorizontal.w1200.jpg" alt="">
+            <div class="answers">
+                <button onclick="wrongOne('.ok2', '.one2', '.two2', '.three2')" class="btn one2">Moe Szyslak</button>
+                <button onclick="ok('.ok2', '.one2', '.two2', '.three2')" class="btn ok2">Maggie Simpson</button>
+                <button onclick="wrongTwo('.ok2', '.one2', '.two2', '.three2')" class="btn two2">Waylon Smithers</button>
+                <button onclick="wrongThree('.ok2', '.one2', '.two2', '.three2')" class="btn three2">Seymour Skinner</button>
+            </div>
+        </div>   
+
+        <div class="question">
+            <h2>¿Cuál es el segundo nombre de Homero?</h2>
+            <img src="https://k61.kn3.net/B/F/5/1/0/0/442.jpg" alt="">
+            <div class="answers">
+                <button onclick="wrongOne('.ok3', '.one3', '.two3', '.three3')" class="btn one3">Jerry</button>
+                <button onclick="wrongTwo('.ok3', '.one3', '.two3', '.three3')" class="btn two3">Jaison</button>
+                <button onclick="ok('.ok3', '.one3', '.two3', '.three3')" class="btn ok3">Jay</button>
+                <button onclick="wrongThree('.ok3', '.one3', '.two3', '.three3')" class="btn three3">Jhon</button>
+            </div>
+        </div>   
+
+        <div class="question">
+            <h2>¿Cómo se escribe el apellido de Apu?</h2>
+            <img src="https://www.diariodesevilla.es/2020/01/18/television/Apu-Nahasapeemapetilon-personajes-Simpson-temporada_1429367209_115326668_667x375.jpg" alt="">
+            <div class="answers">
+                <button onclick="wrongOne('.ok4', '.one4', '.two4', '.three4')" class="btn one4">Najasapemapetilon</button>
+                <button onclick="wrongTwo('.ok4', '.one4', '.two4', '.three4')" class="btn two4">Nahasapeepimapetilon</button>
+                <button onclick="ok('.ok4', '.one4', '.two4', '.three4')" class="btn ok4">Nahasapeemapetilon</button>
+                <button onclick="wrongThree('.ok4', '.one4', '.two4', '.three4')" class="btn three4">Nahassapymapeetilon</button>
+            </div>
+        </div>  
+
+        <div class="question">
+            <h2>¿Cuál es la ciudad que detesta la gente de Springfield?</h2>
+            <img src="https://4.bp.blogspot.com/-2Z3ER8l2Pkk/U63P4eFJn8I/AAAAAAAABds/TYzeVTe_oD8/s667/Trucos-de-los-Simpson-Springfield-para-iPhone-y-Android2.jpg" alt="">
+            <div class="answers">
+                <button onclick="ok('.ok5', '.one5', '.two5', '.three5')" class="btn ok5">Shelbyville</button>
+                <button onclick="wrongOne('.ok5', '.one5', '.two5', '.three5')" class="btn one5">Washington</button>
+                <button onclick="wrongTwo('.ok5', '.one5', '.two5', '.three5')" class="btn two5">New York</button>
+                <button onclick="wrongThree('.ok5', '.one5', '.two5', '.three5')" class="btn three5">Massachusetts</button>
+            </div>
+        </div>  
+
+        <div class="question">
+            <h2>¿Cuál es el correo electrónico de Homero?</h2>
+            <img src="https://www.lifewire.com/thmb/3TsgUf-LTYm5ByBmyS4ya-oW37U=/1280x720/filters:no_upscale():max_bytes(150000):strip_icc()/Simpsons_12_06-5709d0eb5f9b5814081011f1.jpg" alt="">
+            <div class="answers">
+                <button onclick="wrongOne('.ok6', '.one6', '.two6', '.three6')" class="btn one6">homeroamaamarge@aol.com</button>
+                <button onclick="wrongTwo('.ok6', '.one6', '.two6', '.three6')" class="btn two6">reydelasrosquillas@aol.com</button>
+                <button onclick="ok('.ok6', '.one6', '.two6', '.three6')" class="btn ok6">amantedelacomida53@aol.com</button>
+                <button onclick="wrongThree('.ok6', '.one6', '.two6', '.three6')" class="btn three6">donbarredora@aol.com</button>
+            </div>
+        </div>  
+
+        <div class="question">
+            <h2>¿A qué es alérgico Bart?</h2>
+            <img src="https://los40ar00.epimg.net/los40/imagenes/2020/02/20/cine/1582212268_803104_1582212768_noticia_normal.jpg" alt="">
+            <div class="answers">
+                <button onclick="wrongOne('.ok7', '.one7', '.two7', '.three7')" class="btn one7">polen</button>
+                <button onclick="ok('.ok7', '.one7', '.two7', '.three7')" class="btn ok7">camarones</button>
+                <button onclick="wrongTwo('.ok7', '.one7', '.two7', '.three7')" class="btn two7">fresas</button>
+                <button onclick="wrongThree('.ok7', '.one7', '.two7', '.three7')" class="btn three7">maní</button>
+            </div>
+        </div>  
+
+        <div class="question">
+            <h2>¿Cómo se llamaba el presidente de Globex, la empresa donde también trabajó Homero?</h2>
+            <img src="https://lossimpsonsexplicados.com/wp-content/uploads/2018/12/hank-scorpio-lanzallamas.jpg" alt="">
+            <div class="answers">
+                <button onclick="ok('.ok8', '.one8', '.two8', '.three8')" class="btn ok8">Hank Scorpio</button>
+                <button onclick="wrongOne('.ok8', '.one8', '.two8', '.three8')" class="btn one8">Albert Brooks</button>
+                <button onclick="wrongTwo('.ok8', '.one8', '.two8', '.three8')" class="btn two8">Matt Groening</button>
+                <button onclick="wrongThree('.ok8', '.one8', '.two8', '.three8')" class="btn three8">Hank Azaria</button>
+            </div>
+        </div>  
+
+        <div class="question">
+            <h2>¿Cuál es el verdadero nombre del director Seymour Skinner?</h2>
+            <img src="https://www.lavanguardia.com/r/GODO/LV/p0/WebSite/2018/08/12/Recortada/featuredImage-18227-el-director-seymour-skinner-podria-haber-sido-el-culpable-del-declive-de-la-calidad-de-las-historias-de-los-simpsons-992x558@LaVanguardia-Web.jpg" alt="">
+            <div class="answers">
+                <button onclick="wrongOne('.ok9', '.one9', '.two9', '.three9')" class="btn one9">Lalo Landa</button>
+                <button onclick="ok('.ok9', '.one9', '.two9', '.three9')" class="btn ok9">Armando Barreda</button>
+                <button onclick="wrongTwo('.ok9', '.one9', '.two9', '.three9')" class="btn two9">Humberto Vélez</button>
+                <button onclick="wrongThree('.ok9', '.one9', '.two9', '.three9')" class="btn three9">Herb Powell</button>
+            </div>
+        </div>
+
+        <div class="question">
+            <h2>¿Quién dijo la frase: “¡Hola, Lisa! ¡Hola, Super Nintendo Chalmers!”?</h2>
+            <img src="https://i.ytimg.com/vi/ssw5f8pXtr8/hqdefault.jpg" alt="">
+            <div class="answers">
+                <button onclick="wrongOne('.ok10', '.one10', '.two10', '.three10')" class="btn one10">Bart Simpson</button>
+                <button onclick="wrongTwo('.ok10', '.one10', '.two10', '.three10')" class="btn two10">Nelson Muntz</button>
+                <button onclick="wrongThree('.ok10', '.one10', '.two10', '.three10')" class="btn three10">Milhouse Van Houten</button>
+                <button onclick="ok('.ok10', '.one10', '.two10', '.three10')" class="btn ok10">Rafa Górgory</button>
+            </div>
+        </div>
+
+        <div class="question">
+            <h2>¿En quiénes se inspiró Matt Groening para ponerle nombre a los personajes principales?</h2>
+            <img src="https://arc-anglerfish-arc2-prod-copesa.s3.amazonaws.com/public/DG5BP7XQLVBTRKGICW5NGLGCI4.jpg" alt="">
+            <div class="answers">
+                <button onclick="wrongOne('.ok11', '.one11', '.two11', '.three11')" class="btn one11">En amigos de infancia</button>
+                <button onclick="ok('.ok11', '.one11', '.two11', '.three11')" class="btn ok11">En sus padres, hermanos y tías</button>
+                <button onclick="wrongTwo('.ok11', '.one11', '.two11', '.three11')" class="btn two11">En sus series favoritas</button>
+                <button onclick="wrongThree('.ok11', '.one11', '.two11', '.three11')" class="btn three11">En los personajes de sus libros favoritos</button>
+            </div>
+        </div>
+
+        <div class="question">
+            <h2>¿Cuál era el nombre de la empresa de internet de Homero y su cargo?</h2>
+            <img src="https://i.imgur.com/RV7Eg6j.jpg" alt="">
+            <div class="answers">
+                <button onclick="wrongOne('.ok12', '.one12', '.two12', '.three12')" class="btn one12">Revolucionariux - Presidente</button>
+                <button onclick="wrongTwo('.ok12', '.one12', '.two12', '.three12')" class="btn two12">Interrevolux - Vicepresidente</button>
+                <button onclick="ok('.ok12', '.one12', '.two12', '.three12')" class="btn ok12">Compumundohipermegared - Vicepresidente Jr.</button>
+                <button onclick="wrongThree('.ok12', '.one12', '.two12', '.three12')" class="btn three12">Intermegaredlimitada - CEO</button>
+            </div>
+        </div>
+
+        <div class="question">
+            <h2>¿Quiénes fueron los miembros originales de Los Borbotones?</h2>
+            <img src="https://www.thatericalper.com/wp-content/uploads/2015/06/58738.png" alt="">
+            <div class="answers">
+                <button onclick="ok('.ok13', '.one13', '.two13', '.three13')" class="btn ok13">Apu, el director Skinner, el jefe Górgory y Homero</button>
+                <button onclick="wrongOne('.ok13', '.one13', '.two13', '.three13')" class="btn one13">Otto, Apu, Mel Patiño y Homero</button>
+                <button onclick="wrongTwo('.ok13', '.one13', '.two13', '.three13')" class="btn two13">Barney, Homero, Krusty y el jefe Górgory</button>
+                <button onclick="wrongThree('.ok13', '.one13', '.two13', '.three13')" class="btn three13">Profesor Brinco, Barney, Homero, Moe Szyslak</button>
+            </div>
+        </div>
+
+        <div class="question">
+            <h2>¿Cuál es el nombre real de Bob Patiño?</h2>
+            <img src="https://www.eluniverso.com/sites/default/files/styles/nota_ampliada_normal_foto/public/fotos/2015/10/simpsons-01.jpg?itok=ZfnW36EE" alt="">
+            <div class="answers">
+                <button onclick="wrongOne('.ok14', '.one14', '.two14', '.three14')" class="btn one14">Gilberto Zaragoza</button>
+                <button onclick="wrongTwo('.ok14', '.one14', '.two14', '.three14')" class="btn two14">Alberto Sepúlveda</button>
+                <button onclick="ok('.ok14', '.one14', '.two14', '.three14')" class="btn ok14">Roberto Zabaleta</button>
+                <button onclick="wrongThree('.ok14', '.one14', '.two14', '.three14')" class="btn three14">Charles Montgomery</button>
+            </div>
+        </div>
+
+        <div class="question">
+            <h2>¿De quién fue guardaespaldas Homero?</h2>
+            <img src="https://i.ytimg.com/vi/12R8Yl8J548/maxresdefault.jpg" alt="">
+            <div class="answers">
+                <button onclick="wrongOne('.ok15', '.one15', '.two15', '.three15')" class="btn one15">Krusty</button>
+                <button onclick="ok('.ok15', '.one15', '.two15', '.three15')" class="btn ok15">Alcalde Diamante</button>
+                <button onclick="wrongTwo('.ok15', '.one15', '.two15', '.three15')" class="btn two15">El Gordo Tony</button>
+                <button onclick="wrongThree('.ok15', '.one15', '.two15', '.three15')" class="btn three15">Sr. Burns</button>
+            </div>
+        </div>
+
+        <div class="question">
+            <h2>¿Cómo se llamaba la mamá de Homero?</h2>
+            <img src="https://pbs.twimg.com/media/DsZ7hlNWwAAT6cx.jpg" alt="">
+            <div class="answers">
+                <button onclick="wrongOne('.ok16', '.one16', '.two16', '.three16')" class="btn one16">Lola</button>
+                <button onclick="wrongTwo('.ok16', '.one16', '.two16', '.three16')" class="btn two16">Emma</button>
+                <button onclick="wrongThree('.ok16', '.one16', '.two16', '.three16')" class="btn three16">Inés</button>
+                <button onclick="ok('.ok16', '.one16', '.two16', '.three16')" class="btn ok16">Mona</button>
+            </div>
+        </div>
+
+        <div class="question">
+            <h2>¿De qué marca de diseñador es el vestido que Marge compra en la tienda de descuentos?</h2>
+            <img src="https://img.vixdata.io/pd/jpg-large/es/sites/default/files/m/marge_vestido_chanel_rosa_2018.jpg" alt="">
+            <div class="answers">
+                <button onclick="wrongOne('.ok17', '.one17', '.two17', '.three17')" class="btn one17">Prada</button>
+                <button onclick="wrongTwo('.ok17', '.one17', '.two17', '.three17')" class="btn two17">Versace</button>
+                <button onclick="ok('.ok17', '.one17', '.two17', '.three17')" class="btn ok17">Chanel</button>
+                <button onclick="wrongThree('.ok17', '.one17', '.two17', '.three17')" class="btn three17">Louis Vuitton</button>
+            </div>
+        </div>
+
+        <div class="question">
+            <h2>¿Cómo se llama el mono que se volvió ayudante de Homero?</h2>
+            <img src="https://pbs.twimg.com/media/DyBh07GX0AEcDZC.jpg" alt="">
+            <div class="answers">
+                <button onclick="ok('.ok18', '.one18', '.two18', '.three18')" class="btn ok18">Mojo</button>
+                <button onclick="wrongOne('.ok18', '.one18', '.two18', '.three18')" class="btn one18">Pojo</button>
+                <button onclick="wrongTwo('.ok18', '.one18', '.two18', '.three18')" class="btn two18">Yoyo</button>
+                <button onclick="wrongThree('.ok18', '.one18', '.two18', '.three18')" class="btn three18">Bobo</button>
+            </div>
+        </div>
+
+        <div class="question">
+            <h2>¿Cómo se llamaba el músico de jazz al que Lisa admiraba?</h2>
+            <img src="https://lh3.googleusercontent.com/proxy/uSEovpiiLEV_OBm0mgFdA7ofqLJlTj8vHdj-v6iUNIaDIDtjNlKtjVTgZ_Lp9-ppZPhet4ezoZ1frbgHZ8wVV6lMC-CC0Alni3n5YouLAu4" alt="">
+            <div class="answers">
+                <button onclick="wrongOne('.ok19', '.one19', '.two19', '.three19')" class="btn one19">Louis Armstong</button>
+                <button onclick="ok('.ok19', '.one19', '.two19', '.three19')" class="btn ok19">Encias Sangrantes Murphy</button>
+                <button onclick="wrongTwo('.ok19', '.one19', '.two19', '.three19')" class="btn two19">Milles Davis</button>
+                <button onclick="wrongThree('.ok19', '.one19', '.two19', '.three19')" class="btn three19">John Coltrane</button>
+            </div>
+        </div>
+
+        <div class="question">
+            <h2>¿Cuál es la dirección de la casa de los Simpson?</h2>
+            <img src="https://upload.wikimedia.org/wikipedia/en/c/ca/742_Evergreen_Terrace.png" alt="">
+            <div class="answers">
+                <button onclick="wrongOne('.ok20', '.one20', '.two20', '.three20')" class="btn one20 reset">Calle River Bridge 983</button>
+                <button onclick="wrongTwo('.ok20', '.one20', '.two20', '.three20')" class="btn two20 reset">Boulevard Springfield 732</button>
+                <button onclick="wrongThree('.ok20', '.one20', '.two20', '.three20')" class="btn three20 reset">Calle Falsa 123</button>
+                <button onclick="ok('.ok20', '.one20', '.two20', '.three20')" class="btn ok20 reset">Avenida Siempreviva 642</button>
+            </div>
+
+            <button class="score-button btn" onclick="score()">¡Conocer tu Resultado!</button>
+        </div>
+
+    </div>
+
+    <div class="result">
+        <div class="imagen1">
+            <img width="160px" src="https://i.pinimg.com/originals/19/9b/76/199b7699c511312ce953eaf9e07ac8f8.jpg" alt="">
+        </div>
+        <div class="imagen2">
+            <img width="110px" src="https://www.vippng.com/png/detail/4-45426_picture-transparent-library-did-it-againthe-tapped-homer.png" alt="">
+        </div>
+        <div class="imagen3">
+            <img width="160px" src="https://img.pngio.com/nelson-muntz-hahanelsonmuntz-twitter-nelson-muntz-ha-ha-480_480.jpg" alt="">
+        </div>
+        <div class="msg">
+            <h2 class="scoreTitle">Tu puntaje fue de:</h2>
+            <p class="score"></p>
+            <p class="message"></p>
+        </div>
+    </div>
+    <footer></footer>
+    <script src="script/index.js"></script>
+    
+</body>
+</html>

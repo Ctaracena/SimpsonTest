@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
+
+body {
+    max-width: 900px;
+    font-family: 'Pangolin', cursive;
+    margin: 0 auto;
+    background-color: #fed51dd2;
+}
+
+.header {
+    width: 100%;
+    height: 200px;
+    background-image: url('https://i1.wp.com/www.fanisetas.com/blog/wp-content/uploads/2019/08/los-simpsons.jpg?fit=705%2C350&ssl=1');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.title {
+    width: 90%;
+    margin: auto;
+    margin-bottom: 70px;
+    text-align: center;
+}
+.title h1 {
+    font-weight: bold;
+    color: #000000;
+    margin-top: 50px;
+}
+.title h3 {
+    margin-top: 40px;
+    color: #000000;
+    font-weight: normal;
+}
+.start.btn {
+    padding: 16px;
+    margin-top: 40px;
+    margin-bottom: -30px;
+}
+
+.quiz {
+    width: 90%;
+    margin: auto;
+    display: none;
+}
+.question {
+    margin: 100px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.question img {
+    width: 260px;
+    height: 168px;
+    margin-bottom: 6px;
+}
+
+.answers {
+    display: flex;
+    flex-direction: column;
+}
+.btn {
+    width: 300px;
+    margin: 2px auto;
+    font-family: 'Lato', cursive;
+    padding: 6px 0px;
+    border: none;
+    background-color: #009DDC;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+    outline: none;
+    box-shadow: 1px 1px 1px 0 rgba(0,0,0,0.5);
+}
+.btn:hover {
+    background-color: #038ec5;
+
+}
+
+.btn.score-button {
+    margin-top: 100px;
+    background-color: #00947E;
+    color: white;
+    font-weight: bold;
+    padding: 12px 0px;
+    width: 300px;
+}
+.btn.score-button:hover {
+    background-color: #017060;
+}
+
+
+.result {
+    max-width: 500px;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 50px;
+    text-align: center;
+    display: none;
+    background-color: white;
+    padding: 10px;
+    border-radius: 8px;
+}
+.result .imagen1 {
+    padding: 8px 0px;
+    display: none;
+}
+.result .imagen2 {
+    padding: 24px 20px 24px 15px;
+    display: none;
+}
+.result .imagen3 {
+    padding: 12px 5px;
+    display: none;
+}
+.result .message {
+    padding: 2px;
+}
+
+footer {
+    height: 60px;
+}
+
+@media screen and (max-width: 420px) {
+    .result {
+        max-width: 420px;
+        width: 94%;
+        padding: 4px;
+    }
+    .result .imagen2 {
+        padding: 13px 1px 1px 1px;
+    }
+    .result .imagen1 {
+        padding-top: 33px;
+    }
+    .result .imagen1 img {
+        width: 120px;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    .header {
+        width: 100%;
+        height: 350px;
+        background-size: cover;
+    }
+    .question img {
+        width: 280px;
+        height: 175px;
+        margin-bottom: 10px;
+    }
+    .btn {
+        width: 380px;
+        padding: 10px 0px;
+    }
+    .btn.score-button {
+        width: 380px;
+    }
+    .result .imagen2 {
+        padding: 24px 45px 24px 15px;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .question img {
+        width: 300px;
+        height: 180px;
+    }
+    .btn {
+        width: 400px;
+        padding: 12px 0px;
+    }
+    .btn.score-button {
+        width: 400px;
+    }
+    .result .imagen2 {
+        padding: 24px 50px 24px 15px;
+    }
+}
+
+@media screen and (min-width: 1350px) {
+    h2 {
+        font-size: 28px;
+    }
+    .header {
+        width: 100%;
+        height: 350px;
+        background-size: cover;
+    }
+    .question img {
+        width: 360px;
+        height: 210px;
+        margin-bottom: 10px;
+    }
+    .btn {
+        width: 450px;
+        padding: 12px 0px;
+    }
+    .btn.score-button {
+        width: 450px;
+    }
+    .result {
+        max-width: 520px;
+    }
+}
