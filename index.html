@@ -231,10 +231,10 @@
             <h2>¿Cuál es la dirección de la casa de los Simpson?</h2>
             <img src="https://upload.wikimedia.org/wikipedia/en/c/ca/742_Evergreen_Terrace.png" alt="">
             <div class="answers">
-                <button onclick="wrongOne('.ok20', '.one20', '.two20', '.three20')" class="btn one20 reset">Calle River Bridge 983</button>
-                <button onclick="wrongTwo('.ok20', '.one20', '.two20', '.three20')" class="btn two20 reset">Boulevard Springfield 732</button>
-                <button onclick="wrongThree('.ok20', '.one20', '.two20', '.three20')" class="btn three20 reset">Calle Falsa 123</button>
-                <button onclick="ok('.ok20', '.one20', '.two20', '.three20')" class="btn ok20 reset">Avenida Siempreviva 642</button>
+                <button onclick="wrongOne('.ok20', '.one20', '.two20', '.three20'), score()" class="btn one20 reset">Calle River Bridge 983</button>
+                <button onclick="wrongTwo('.ok20', '.one20', '.two20', '.three20'), score()" class="btn two20 reset">Boulevard Springfield 732</button>
+                <button onclick="wrongThree('.ok20', '.one20', '.two20', '.three20'), score()" class="btn three20 reset">Calle Falsa 123</button>
+                <button onclick="ok('.ok20', '.one20', '.two20', '.three20'), score()" class="btn ok20 reset">Avenida Siempreviva 642</button>
             </div>
 
             <button class="score-button btn" onclick="score()">¡Conocer tu Resultado!</button>
@@ -263,7 +263,7 @@
     </div>
 
     <div class="reset-container">
-        <button onclick="reset()" class="reset btn">Repetir el Quiz!</button>
+        <button onclick="reset()" class="reset btn">Intentarlo de Nuevo!</button>
     </div>
     <footer></footer>
     <script src="script/index.js"></script>

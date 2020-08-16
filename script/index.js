@@ -88,6 +88,9 @@ function wrongThree(itsOk, btn1, btn2, btn3) {
 }
 
 function score() {
+    setInterval(() => {
+        resetBtn.style.display = 'flex'
+    },1000)
     result.style.display = 'flex'
     scoreCant.style.fontWeight = 'bold'
     scoreCant.style.fontSize = '24px'
@@ -95,7 +98,6 @@ function score() {
     msg.style.color = 'white'
     scoreButton.style.display = 'none'
     window.scrollBy(0, scrollY)
-    resetBtn.style.display = 'flex'
     
 
     if (cont == 20) {
