@@ -9,8 +9,10 @@ let scoreButton = document.querySelector('.score-button')
 let imagen1 = document.querySelector('.imagen1')
 let imagen2 = document.querySelector('.imagen2')
 let imagen3 = document.querySelector('.imagen3')
+let imagen4 = document.querySelector('.imagen4')
 let startBtn = document.querySelector('.start')
 let quiz = document.querySelector('.quiz')
+let resetBtn = document.querySelector('.reset-container')
 
 function start() {
     quiz.style.display = 'block'
@@ -93,6 +95,7 @@ function score() {
     msg.style.color = 'white'
     scoreButton.style.display = 'none'
     window.scrollBy(0, scrollY)
+    resetBtn.style.display = 'flex'
     
 
     if (cont == 20) {
@@ -100,7 +103,7 @@ function score() {
         scoreCant.innerHTML = `${cont} / 20`
         msg.innerHTML = 'Vaya!!! si que eres un verdadero Fan de Los Simpson'
     } else if (cont > 15 && cont < 20) {
-        imagen1.style.display = 'block'
+        imagen4.style.display = 'block'
         scoreCant.innerHTML = `${cont} / 20`
         msg.innerHTML = 'Muy Bien! conoces bastante acerca de Los Simpson'
     } else if (cont > 10 && cont <= 15) {
@@ -114,3 +117,4 @@ function score() {
     }
 }
 
+const reset = () => location.reload()
