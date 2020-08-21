@@ -33,9 +33,7 @@ function ok(itsOk, btn1, btn2, btn3) {
     button2.disabled = true
     button3.disabled = true
     console.log(cont)
-    setTimeout(()=>{
-        window.scrollBy(0, scrollY)
-    }, 500)
+    
 }
 
 function wrongOne(itsOk, btn1, btn2, btn3) {
@@ -46,12 +44,11 @@ function wrongOne(itsOk, btn1, btn2, btn3) {
     button1.style.backgroundColor = '#F14E28'
     button1.innerHTML = 'Incorrecto :('
     ok.disabled = true
+    ok.style.backgroundColor = '#7BC242'
     button1.disabled = true
     button2.disabled = true
     button3.disabled = true
-    setTimeout(()=>{
-        window.scrollBy(0, scrollY)
-    }, 500)
+    
 }
 
 function wrongTwo(itsOk, btn1, btn2, btn3) {
@@ -62,12 +59,11 @@ function wrongTwo(itsOk, btn1, btn2, btn3) {
     button2.style.backgroundColor = '#F14E28'
     button2.innerHTML = 'Incorrecto :('
     ok.disabled = true
+    ok.style.backgroundColor = '#7BC242'
     button1.disabled = true
     button2.disabled = true
     button3.disabled = true
-    setTimeout(()=>{
-        window.scrollBy(0, scrollY)
-    }, 500)
+
 }
 
 
@@ -79,12 +75,11 @@ function wrongThree(itsOk, btn1, btn2, btn3) {
     button3.style.backgroundColor = '#F14E28'
     button3.innerHTML = 'Incorrecto :('
     ok.disabled = true
+    ok.style.backgroundColor = '#7BC242'
     button1.disabled = true
     button2.disabled = true
     button3.disabled = true
-    setTimeout(()=>{
-        window.scrollBy(0, scrollY)
-    }, 500)
+    
 }
 
 function score() {
