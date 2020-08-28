@@ -139,13 +139,16 @@ footer {
     width: 100%;
     height: 30px;
     position: absolute;
+    left: 0;
     bottom: auto;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-between;
+    padding: 0 1em;
+    align-items: space;
     background-color: #038ec5;
     color: white;
     font-size: 13px;
+    box-sizing: border-box;
 }
 
 @media screen and (max-width: 420px) {
